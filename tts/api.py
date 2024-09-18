@@ -1,3 +1,4 @@
+import pathlib
 import sys, os
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -109,6 +110,7 @@ async def handle(params: Params):
     except Exception as e:
         return {"code": 2, "msg": f"{e}"}
     if code == 1:
+        audio = pathlib.Path(audio).as_posix()
         if params.local:
             return {"code": code, "file": audio, "url": "", "data": audio}
         if params.format == "wav":
