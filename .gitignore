@@ -1,0 +1,6 @@
+TEMP
+config
+*.pyc
+app/resource/resource_rc.py
+models
+repo

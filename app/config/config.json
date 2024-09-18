@@ -1,0 +1,30 @@
+{
+    "TTS": {
+        "api_autostart": false,
+        "default_avatar": "",
+        "host": "0.0.0.0",
+        "output_dir": "H:/code/PySide6-QML-FluentUI/3/PyQt-Fluent-Widgets/WebTTS3/TEMP",
+        "port": 20080,
+        "timeout": 600
+    },
+    "Material": {
+        "AcrylicBlurRadius": 14
+    },
+    "ChatTTS": {
+        "chattts_dir": "H:/code/PySide6-QML-FluentUI/3/PyQt-Fluent-Widgets/WebTTS3/repo/chattts",
+        "chattts_enable": true,
+        "chattts_model": "G:/code/GPT-SoVITS-WebTTS/3/ChatTTS/models"
+    },
+    "Update": {
+        "CheckUpdateAtStartUp": true
+    },
+    "MainWindow": {
+        "DpiScale": "Auto",
+        "Language": "zh_CN",
+        "MicaEnabled": true
+    },
+    "QFluentWidgets": {
+        "ThemeColor": "#ff009faa",
+        "ThemeMode": "Light"
+    }
+}
